@@ -59,6 +59,6 @@ O Instagram não abre perfis sem login e a chave do Apify fica só no `.env` do 
 
 1. Editar `pesquisa/referencias.txt` (um @ por linha).
 2. No PC, rodar `pesquisar_instagram.bat` (ou `python instagram/pesquisa/coletar.py --enviar`).
-   Ele faz `git pull`, coleta perfil + 40 posts por conta + imagens dos 12 posts de maior engajamento,
+   Ele faz `git pull`, coleta perfil + 60 posts por conta + todos os slides de cada post (uma folha por post),
    salva em `pesquisa/coleta/AAAA-MM-DD/` e faz commit + push.
 3. Avisar o Claude na nuvem, que puxa a coleta e escreve a análise em `pesquisa/analise.md`.
