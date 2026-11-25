@@ -52,3 +52,13 @@ Todo slide aceita `"fundo": "claro" | "escuro" | "turquesa"` e `"etiqueta"` (sel
 - Conferir todo número, prazo e alíquota antes de mandar para aprovação (valores mudam todo ano).
 - Escrever sempre com "você", em português neutro: sem regionalismos nem gírias ("tu", "bah", "tchê" etc.).
 - Nada é publicado sem aprovação do Maurício.
+
+## Pesquisa de contas de referência (roda no PC)
+
+O Instagram não abre perfis sem login e a chave do Apify fica só no `.env` do PC, então a coleta roda lá e a análise é feita na nuvem:
+
+1. Editar `pesquisa/referencias.txt` (um @ por linha).
+2. No PC, rodar `pesquisar_instagram.bat` (ou `python instagram/pesquisa/coletar.py --enviar`).
+   Ele faz `git pull`, coleta perfil + 40 posts por conta + imagens dos 12 posts de maior engajamento,
+   salva em `pesquisa/coleta/AAAA-MM-DD/` e faz commit + push.
+3. Avisar o Claude na nuvem, que puxa a coleta e escreve a análise em `pesquisa/analise.md`.

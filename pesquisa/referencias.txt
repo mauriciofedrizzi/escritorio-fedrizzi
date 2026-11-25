@@ -1,0 +1,17 @@
+# Contas do Instagram para analisar (uma por linha, com ou sem @).
+# Linhas começando com # são ignoradas.
+# Depois de editar, rode no PC:  pesquisar_instagram.bat
+
+# --- A conta do escritório (para comparar) ---
+@fedrizzi.contabilidade
+
+# --- Referências escolhidas pelo Maurício ---
+# (colocar aqui)
+
+# --- Sugestões para conferir (tirar o # para incluir; confirmar o @ exato no Instagram) ---
+# Contabilizei (contabilidade online)
+# Agilize (contabilidade online)
+# Professor Edgar Madruga
+# Gabriel Rabelo
+# Isabela Contadora
+# Leandro Bueno (O Contador)
