@@ -1,0 +1,12 @@
+{
+  "titulo_interno": "Conta PJ: certo x errado",
+  "formato": "imagem",
+  "status": "rascunho",
+  "slides": [
+    {"tipo": "comparacao", "etiqueta": "Dica rápida", "titulo": "Conta da empresa *não é cofrinho pessoal*",
+     "errado": {"titulo": "Evite", "itens": ["Pagar mercado com o cartão da empresa", "Pix pessoal saindo da conta PJ", "Retiradas sem registro"]},
+     "certo": {"titulo": "Faça assim", "itens": ["Pró-labore fixo todo mês", "Distribuição de lucros registrada", "Cada conta com sua função"]}}
+  ],
+  "legenda": "Separar as contas é o primeiro passo para ter controle de verdade sobre o lucro da empresa. ✅\n\nSalva esse post para lembrar depois!",
+  "hashtags": ["contabilidade", "contapj", "financasempresariais", "empreendedorismo", "fedrizzicontabilidade"]
+}

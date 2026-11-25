@@ -10,3 +10,6 @@ telegram_chat_id.txt
 assets/raw_*
 musicas/
 sfx/
+
+# arquivos temporarios do gerador de posts
+posts/**/.slide-*.html

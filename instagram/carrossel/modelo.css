@@ -1,0 +1,104 @@
+/* Modelo visual dos posts Fedrizzi (1080 x 1350, formato 4:5 do feed) */
+@font-face { font-family: "Barlow Condensed"; font-weight: 500; src: url("../../assets/fontes/barlow-condensed-latin-500-normal.woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 600; src: url("../../assets/fontes/barlow-condensed-latin-600-normal.woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 700; src: url("../../assets/fontes/barlow-condensed-latin-700-normal.woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-weight: 800; src: url("../../assets/fontes/barlow-condensed-latin-800-normal.woff2"); }
+@font-face { font-family: "Jost"; font-weight: 400; src: url("../../assets/fontes/jost-latin-400-normal.woff2"); }
+@font-face { font-family: "Jost"; font-weight: 500; src: url("../../assets/fontes/jost-latin-500-normal.woff2"); }
+@font-face { font-family: "Jost"; font-weight: 600; src: url("../../assets/fontes/jost-latin-600-normal.woff2"); }
+@font-face { font-family: "Jost"; font-weight: 700; src: url("../../assets/fontes/jost-latin-700-normal.woff2"); }
+
+:root {
+  --turquesa: #00C3C9;
+  --turquesa-claro: #52C3C9;
+  --grafite: #606062;
+  --petroleo: #006A7B;
+  --tinta: #2B2B2D;
+  --fundo: #F4F8F8;
+  --branco: #FFFFFF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; }
+body { font-family: "Jost", sans-serif; color: var(--tinta); background: var(--fundo); }
+
+.slide { position: relative; width: 1080px; height: 1350px; padding: 110px 96px 170px; display: flex; flex-direction: column; overflow: hidden; }
+.slide.claro { background: var(--fundo); }
+.slide.escuro { background: var(--petroleo); color: var(--branco); }
+.slide.turquesa { background: var(--turquesa); color: var(--branco); }
+
+/* símbolo grande decorativo, cortado na borda */
+.marca-dagua { position: absolute; right: -260px; bottom: -150px; width: 820px; opacity: .06; pointer-events: none; }
+.escuro .marca-dagua, .turquesa .marca-dagua { opacity: .08; }
+
+/* rodapé: símbolo + @ + paginação */
+.rodape { position: absolute; left: 96px; right: 96px; bottom: 64px; display: flex; align-items: center; gap: 18px; font-size: 30px; font-weight: 500; color: var(--grafite); }
+.escuro .rodape, .turquesa .rodape { color: rgba(255,255,255,.85); }
+.rodape img { height: 40px; }
+.rodape .pagina { margin-left: auto; font-family: "Barlow Condensed"; font-weight: 600; font-size: 34px; letter-spacing: 1px; }
+.rodape .arrasta { margin-left: auto; font-family: "Barlow Condensed"; font-weight: 700; font-size: 34px; letter-spacing: 2px; text-transform: uppercase; color: var(--turquesa); }
+.escuro .rodape .arrasta, .turquesa .rodape .arrasta { color: var(--branco); }
+
+/* tipografia */
+.etiqueta { align-self: flex-start; font-family: "Barlow Condensed"; font-weight: 700; font-size: 34px; letter-spacing: 3px; text-transform: uppercase; padding: 10px 22px 8px; border-radius: 6px; background: var(--turquesa); color: var(--branco); margin-bottom: 44px; }
+.escuro .etiqueta { background: var(--turquesa); }
+.turquesa .etiqueta { background: var(--branco); color: var(--petroleo); }
+
+h1, h2 { font-family: "Barlow Condensed"; font-weight: 700; text-transform: uppercase; line-height: .98; letter-spacing: -.5px; }
+h1 { font-size: 132px; }
+h2 { font-size: 100px; margin-bottom: 48px; }
+h1 em, h2 em { font-style: normal; color: var(--turquesa); }
+.escuro h1 em, .escuro h2 em { color: var(--turquesa); }
+.turquesa h1 em, .turquesa h2 em { color: var(--petroleo); }
+.claro h1, .claro h2 { color: var(--tinta); }
+
+.sub { font-size: 44px; line-height: 1.3; margin-top: 44px; font-weight: 400; opacity: .92; }
+.texto { font-size: 48px; line-height: 1.38; }
+.texto p + p { margin-top: 34px; }
+.texto strong, .sub strong, li strong { font-weight: 600; color: var(--petroleo); }
+.escuro .texto strong, .escuro .sub strong, .escuro li strong { color: var(--turquesa); }
+.turquesa .texto strong, .turquesa .sub strong { color: var(--petroleo); }
+
+.capa { justify-content: center; }
+.capa h1 { font-size: 150px; }
+.barra { width: 120px; height: 12px; background: var(--turquesa); border-radius: 6px; margin-bottom: 48px; }
+.turquesa .barra { background: var(--branco); }
+
+/* lista numerada */
+ol.lista { list-style: none; display: flex; flex-direction: column; gap: 34px; }
+ol.lista li { display: flex; gap: 30px; align-items: flex-start; font-size: 46px; line-height: 1.3; }
+ol.lista li .n { flex: none; width: 76px; height: 76px; border-radius: 50%; background: var(--turquesa); color: var(--branco); font-family: "Barlow Condensed"; font-weight: 700; font-size: 46px; display: flex; align-items: center; justify-content: center; margin-top: -6px; }
+.escuro ol.lista li .n { background: var(--turquesa); }
+
+/* destaque: número grande */
+.destaque { justify-content: center; }
+.numero { font-family: "Barlow Condensed"; font-weight: 800; font-size: 250px; line-height: .9; color: var(--turquesa); letter-spacing: -2px; }
+.escuro .numero { color: var(--turquesa); }
+.turquesa .numero { color: var(--branco); }
+.destaque .texto { margin-top: 40px; }
+
+/* alerta / comparação */
+.caixa { border-left: 14px solid var(--turquesa); background: var(--branco); padding: 48px 52px; border-radius: 0 18px 18px 0; box-shadow: 0 10px 40px rgba(0, 106, 123, .10); }
+.escuro .caixa { background: rgba(255,255,255,.08); box-shadow: none; }
+.alerta .caixa { border-left-color: #E8A33D; }
+.alerta .etiqueta { background: #E8A33D; }
+
+.duas-colunas { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.coluna { border-radius: 18px; padding: 40px 36px; background: var(--branco); }
+.coluna h3 { font-family: "Barlow Condensed"; font-weight: 700; font-size: 48px; text-transform: uppercase; margin-bottom: 24px; }
+.coluna ul { list-style: none; display: flex; flex-direction: column; gap: 20px; font-size: 36px; line-height: 1.3; }
+.coluna.errado h3 { color: #C2553F; }
+.coluna.certo h3 { color: var(--petroleo); }
+.coluna.errado li::before { content: "✕  "; color: #C2553F; font-weight: 700; }
+.coluna.certo li::before { content: "✓  "; color: var(--turquesa); font-weight: 700; }
+
+/* chamada final */
+.cta { justify-content: center; align-items: flex-start; }
+.cta .logo { width: 520px; margin-bottom: 70px; }
+.cta .botao { margin-top: 56px; font-family: "Barlow Condensed"; font-weight: 700; font-size: 46px; text-transform: uppercase; letter-spacing: 1px; padding: 22px 40px 18px; border-radius: 999px; background: var(--turquesa); color: var(--branco); }
+.escuro.cta .botao { background: var(--turquesa); }
+
+/* área que encolhe a fonte se o texto não couber */
+.conteudo { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+.ajuste { display: flex; flex-direction: column; align-items: flex-start; width: 100%; }
+.ajuste > h1, .ajuste > h2, .ajuste > .texto, .ajuste > .sub, .ajuste > ol, .ajuste > .caixa, .ajuste > .duas-colunas { width: 100%; }

@@ -1,0 +1,16 @@
+{
+  "titulo_interno": "5 erros que fazem a empresa pagar imposto a mais",
+  "formato": "carrossel",
+  "status": "rascunho",
+  "slides": [
+    {"tipo": "capa", "etiqueta": "Impostos", "titulo": "5 erros que fazem sua empresa *pagar imposto a mais*", "subtitulo": "Confira se algum deles acontece aí."},
+    {"tipo": "texto", "etiqueta": "Erro 1", "titulo": "Misturar conta *pessoal* e da *empresa*", "texto": "Quando a empresa paga contas pessoais (e vice-versa), fica impossível saber o **lucro real** do negócio.\n\nSem esse número, não dá para planejar impostos, e a contabilidade perde a força como prova perante o Fisco."},
+    {"tipo": "texto", "etiqueta": "Erro 2", "titulo": "Nunca revisar o *regime tributário*", "texto": "Simples Nacional, Lucro Presumido ou Lucro Real: o regime mais barato muda conforme **faturamento, margem e folha**.\n\nA troca normalmente só pode ser feita **no início do ano**, então a análise precisa vir antes."},
+    {"tipo": "alerta", "etiqueta": "Erro 3", "titulo": "Retirar dinheiro *sem pró-labore*", "texto": "Sócio que trabalha na empresa deve ter **pró-labore** definido.\n\nRetirar tudo como \"lucro\", sem controle, abre espaço para cobrança de INSS e questionamentos da Receita."},
+    {"tipo": "texto", "etiqueta": "Erro 4", "titulo": "Perder *prazos*", "texto": "Guia paga com atraso ou declaração entregue fora do prazo gera **multa e juros**.\n\nÉ dinheiro que sai do caixa sem trazer nada de volta para o negócio."},
+    {"tipo": "texto", "etiqueta": "Erro 5", "titulo": "Nota fiscal com *código errado*", "texto": "Um código de atividade ou de serviço errado na nota pode enquadrar a receita numa **faixa de alíquota maior**.\n\nVale conferir o cadastro sempre que a empresa muda ou amplia o que vende."},
+    {"tipo": "cta", "titulo": "Sua empresa está pagando *mais do que deveria*?", "texto": "A gente analisa o seu caso e mostra onde dá para economizar, dentro da lei.", "botao": "Chama no direct"}
+  ],
+  "legenda": "Pagar imposto é obrigação. Pagar imposto A MAIS, não. 💸\n\nSeparamos 5 erros que vemos com frequência em pequenas empresas e que fazem o imposto pesar mais do que deveria.\n\nQual deles acontece aí? Conta nos comentários 👇\n\nE se quiser uma análise do seu caso, é só chamar no direct.",
+  "hashtags": ["contabilidade", "impostos", "pequenasempresas", "empreendedorismo", "simplesnacional", "gestaofinanceira", "fedrizzicontabilidade"]
+}
