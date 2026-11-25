@@ -50,4 +50,5 @@ Todo slide aceita `"fundo": "claro" | "escuro" | "turquesa"` e `"etiqueta"` (sel
 ## Regras de conteúdo
 
 - Conferir todo número, prazo e alíquota antes de mandar para aprovação (valores mudam todo ano).
+- Escrever sempre com "você", em português neutro: sem regionalismos nem gírias ("tu", "bah", "tchê" etc.).
 - Nada é publicado sem aprovação do Maurício.
