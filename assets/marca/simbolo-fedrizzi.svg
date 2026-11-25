@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="435.5 10 1016 570">
+<title>Simbolo Fedrizzi</title>
+<defs><linearGradient id="pontaA" gradientUnits="userSpaceOnUse" x1="867.5" y1="371" x2="782.634" y2="455.866"><stop offset="0" stop-color="#006A7B"/><stop offset="1" stop-color="#00C3C9"/></linearGradient><linearGradient id="pontaB" gradientUnits="userSpaceOnUse" x1="1019.5" y1="219" x2="1104.37" y2="134.134"><stop offset="0" stop-color="#006A7B"/><stop offset="1" stop-color="#00C3C9"/></linearGradient></defs>
+<g fill="none" stroke-width="62" stroke-linejoin="miter" stroke-miterlimit="4" stroke-linecap="butt"><path d="M867.5 371 L720.5 518 L497.5 295 L720.5 72 L1166.5 518 L1389.5 295 L1166.5 72 L1019.5 219" stroke="#00C3C9"/><path d="M760.5 478 L867.5 371" stroke="url(#pontaA)"/><path d="M1126.5 112 L1019.5 219" stroke="url(#pontaB)"/></g>
+</svg>
