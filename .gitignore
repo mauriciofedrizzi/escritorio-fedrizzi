@@ -4,3 +4,9 @@ __pycache__/
 videos/
 roteiros/*.txt
 roteiros/*.json
+roteiros/*.pdf
+*.env.txt
+telegram_chat_id.txt
+assets/raw_*
+musicas/
+sfx/
