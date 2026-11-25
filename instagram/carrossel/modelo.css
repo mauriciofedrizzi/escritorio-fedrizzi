@@ -25,7 +25,9 @@ body { font-family: "Jost", sans-serif; color: var(--tinta); background: var(--f
 .slide { position: relative; width: 1080px; height: 1350px; padding: 110px 96px 170px; display: flex; flex-direction: column; overflow: hidden; }
 .slide.claro { background: var(--fundo); }
 .slide.escuro { background: var(--petroleo); color: var(--branco); }
-.slide.turquesa { background: var(--turquesa); color: var(--branco); }
+.slide.turquesa { background: var(--turquesa); color: #083A42; }
+.turquesa h1, .turquesa h2 { color: #083A42; }
+.turquesa h1 em, .turquesa h2 em { color: var(--branco); }
 
 /* símbolo grande decorativo, cortado na borda */
 .marca-dagua { position: absolute; right: -260px; bottom: -150px; width: 820px; opacity: .06; pointer-events: none; }
@@ -33,7 +35,8 @@ body { font-family: "Jost", sans-serif; color: var(--tinta); background: var(--f
 
 /* rodapé: símbolo + @ + paginação */
 .rodape { position: absolute; left: 96px; right: 96px; bottom: 64px; display: flex; align-items: center; gap: 18px; font-size: 30px; font-weight: 500; color: var(--grafite); }
-.escuro .rodape, .turquesa .rodape { color: rgba(255,255,255,.85); }
+.escuro .rodape { color: rgba(255,255,255,.85); }
+.turquesa .rodape { color: #083A42; }
 .rodape img { height: 40px; }
 .rodape .pagina { margin-left: auto; font-family: "Barlow Condensed"; font-weight: 600; font-size: 34px; letter-spacing: 1px; }
 .rodape .arrasta { margin-left: auto; font-family: "Barlow Condensed"; font-weight: 700; font-size: 34px; letter-spacing: 2px; text-transform: uppercase; color: var(--turquesa); }
@@ -42,14 +45,13 @@ body { font-family: "Jost", sans-serif; color: var(--tinta); background: var(--f
 /* tipografia */
 .etiqueta { align-self: flex-start; font-family: "Barlow Condensed"; font-weight: 700; font-size: 34px; letter-spacing: 3px; text-transform: uppercase; padding: 10px 22px 8px; border-radius: 6px; background: var(--turquesa); color: var(--branco); margin-bottom: 44px; }
 .escuro .etiqueta { background: var(--turquesa); }
-.turquesa .etiqueta { background: var(--branco); color: var(--petroleo); }
+.turquesa .etiqueta { background: #083A42; color: var(--branco); }
 
 h1, h2 { font-family: "Barlow Condensed"; font-weight: 700; text-transform: uppercase; line-height: .98; letter-spacing: -.5px; }
 h1 { font-size: 132px; }
 h2 { font-size: 100px; margin-bottom: 48px; }
 h1 em, h2 em { font-style: normal; color: var(--turquesa); }
 .escuro h1 em, .escuro h2 em { color: var(--turquesa); }
-.turquesa h1 em, .turquesa h2 em { color: var(--petroleo); }
 .claro h1, .claro h2 { color: var(--tinta); }
 
 .sub { font-size: 44px; line-height: 1.3; margin-top: 44px; font-weight: 400; opacity: .92; }
@@ -57,7 +59,7 @@ h1 em, h2 em { font-style: normal; color: var(--turquesa); }
 .texto p + p { margin-top: 34px; }
 .texto strong, .sub strong, li strong { font-weight: 600; color: var(--petroleo); }
 .escuro .texto strong, .escuro .sub strong, .escuro li strong { color: var(--turquesa); }
-.turquesa .texto strong, .turquesa .sub strong { color: var(--petroleo); }
+.turquesa .texto strong, .turquesa .sub strong { color: #083A42; font-weight: 700; }
 
 .capa { justify-content: center; }
 .capa h1 { font-size: 150px; }

@@ -1,0 +1,23 @@
+{
+  "titulo_interno": "Checklist de fim de ano para a empresa",
+  "formato": "carrossel",
+  "status": "aguardando_aprovacao",
+  "data_sugerida": "2026-11-27",
+  "conferir_antes_de_publicar": [
+    "13º: 1ª parcela até 30/11; 2ª até 20/12, que em 2026 cai no domingo -> antecipar para sexta 18/12 (Lei 4.749/65)",
+    "Opção pelo Simples Nacional para empresas já abertas: até o último dia útil de janeiro (29/01/2027)",
+    "Reforma tributária (LC 214/2025): CBS em vigor a partir de 2027, substituindo PIS/Cofins",
+    "Livro de inventário: estoque levantado em 31/12"
+  ],
+  "slides": [
+    {"tipo": "capa", "etiqueta": "Fim de ano", "titulo": "Checklist para sua empresa *fechar 2026* sem susto", "subtitulo": "Salve este post para consultar até o fim do ano."},
+    {"tipo": "destaque", "etiqueta": "1. 13º salário", "numero": "30/11", "texto": "Último dia para pagar a **1ª parcela** do 13º.\n\nA 2ª parcela vence dia 20, mas em 2026 essa data cai num **domingo**: o pagamento deve ser antecipado para **sexta, 18/12**."},
+    {"tipo": "texto", "etiqueta": "2. Estoque", "titulo": "Faça o *inventário* em 31/12", "texto": "Quem vende produtos precisa registrar o **estoque existente no último dia do ano**.\n\nUma contagem errada distorce o lucro e, com ele, o imposto a pagar."},
+    {"tipo": "lista", "etiqueta": "3. Planejamento", "titulo": "Escolha o *regime de 2027*", "itens": ["Compare Simples, Presumido e Real com os **números reais de 2026**", "Projete faturamento e folha para 2027", "Para optar pelo Simples, o prazo vai até **29/01/2027**"]},
+    {"tipo": "alerta", "etiqueta": "4. Reforma tributária", "titulo": "2027 já *começa diferente*", "texto": "Em 2027 a **CBS** passa a substituir o PIS e a Cofins.\n\nVale revisar preços, contratos e o cadastro de produtos e serviços ainda este ano, para não ser pego de surpresa."},
+    {"tipo": "texto", "etiqueta": "5. Pendências", "titulo": "Deixe tudo *em dia*", "texto": "Confira **certidões negativas, parcelamentos e débitos em aberto**.\n\nPendência fiscal trava crédito no banco, participação em licitações e até a venda para alguns clientes."},
+    {"tipo": "cta", "titulo": "Quer fechar o ano com *tudo em ordem*?", "texto": "A Fedrizzi revisa esse checklist com você e já prepara o planejamento de 2027.", "botao": "Fale com a gente no direct"}
+  ],
+  "legenda": "Dezembro chega rápido, e com ele vêm prazos que não perdoam. 📅\n\nMontamos um checklist com 5 pontos para sua empresa fechar 2026 sem multa e começar 2027 com o pé direito:\n\n1️⃣ 13º salário (atenção: a 2ª parcela vence dia 18/12 este ano)\n2️⃣ Inventário de estoque em 31/12\n3️⃣ Escolha do regime tributário de 2027\n4️⃣ Reforma tributária: a CBS chega em 2027\n5️⃣ Pendências fiscais em dia\n\nSalve para não esquecer e envie para aquele sócio que deixa tudo para a última hora. 😉\n\nDúvidas? É só chamar no direct.",
+  "hashtags": ["contabilidade", "fimdeano", "13salario", "planejamentotributario", "reformatributaria", "simplesnacional", "pequenasempresas", "empreendedorismo", "fedrizzicontabilidade"]
+}

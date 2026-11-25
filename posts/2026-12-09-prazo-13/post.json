@@ -1,0 +1,14 @@
+{
+  "titulo_interno": "Lembrete: 2ª parcela do 13º em 18/12",
+  "formato": "imagem",
+  "status": "aguardando_aprovacao",
+  "data_sugerida": "2026-12-09",
+  "conferir_antes_de_publicar": [
+    "2ª parcela do 13º: prazo legal dia 20/12; em 2026 é domingo -> antecipar para 18/12 (sexta)"
+  ],
+  "slides": [
+    {"tipo": "destaque", "fundo": "turquesa", "etiqueta": "Lembrete", "titulo": "2ª parcela do *13º salário*", "numero": "18/12", "texto": "O prazo é dia 20, mas em 2026 ele cai num **domingo**. Por isso, o pagamento deve ser feito até **sexta-feira, 18 de dezembro**."}
+  ],
+  "legenda": "⚠️ Atenção, empregador: este ano a 2ª parcela do 13º não vence no dia 20.\n\nComo 20/12 cai num domingo, o pagamento deve ser antecipado para sexta-feira, 18/12. Pagar depois disso pode gerar multa.\n\nLembre-se: na 2ª parcela já entram os descontos de INSS e Imposto de Renda.\n\nCompartilhe com quem tem funcionários! 👥",
+  "hashtags": ["13salario", "decimoterceiro", "departamentopessoal", "contabilidade", "empregador", "fedrizzicontabilidade"]
+}
