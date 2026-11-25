@@ -6,7 +6,8 @@
 @fedrizzi.contabilidade
 
 # --- Referências escolhidas pelo Maurício ---
-# (colocar aqui)
+@contplan
+@andreia.porsch
 
 # --- Sugestões para conferir (tirar o # para incluir; confirmar o @ exato no Instagram) ---
 # Contabilizei (contabilidade online)
