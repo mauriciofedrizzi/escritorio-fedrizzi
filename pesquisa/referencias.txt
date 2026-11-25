@@ -9,6 +9,7 @@
 @contplan
 @andreia.porsch
 @contabilizei
+@contabilizei.medicos
 
 # --- Sugestões para conferir (tirar o # para incluir; confirmar o @ exato no Instagram) ---
 # Agilize (contabilidade online)
